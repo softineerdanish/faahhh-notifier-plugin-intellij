@@ -40,7 +40,7 @@ When ANY build or run configuration succeeds after a prior failure:
 4. **Install from Disk:**
    - Select **"Install Plugin from Disk..."**
    
-   ![Install from Disk](docs/install-from-disk.png)
+   ![Install from Disk](raw/img.png)
 
 5. **Select the ZIP file:**
    - Navigate to and select `Panic Plugin-1.0.0.zip`
