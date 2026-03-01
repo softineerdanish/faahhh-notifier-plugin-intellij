@@ -27,7 +27,7 @@ When ANY build or run configuration succeeds after a prior failure:
 ## 📸 Screenshots
 
 ### 🔴 Panic Mode in Action
-When your build fails, the entire IDE turns red and screams!
+When your build fails, the entire IDE turns red and screams FAAAHHH!
 
 ![Panic Mode](raw/panic_mode.png)
 
