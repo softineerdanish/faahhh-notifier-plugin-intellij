@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<idea-plugin>
+    <id>com.gtxtreme.panic</id>
+    <name>Panic Plugin</name>
+    <vendor email="thakkargaurav409@gmail.com" url="https://github.com/ForceGT">Gaurav Thakkar</vendor>
+    <description>Panic Mode on Build Failure - Red pulsing overlay + scream audio. GTA Mission Passed on success!</description>
+
+    <depends>com.intellij.modules.platform</depends>
+    <depends optional="true">com.intellij.gradle</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <projectService serviceImplementation="com.gtxtreme.panic.FaahStateService"/>
+        <postStartupActivity implementation="com.gtxtreme.panic.startup.PanicPluginStartup"/>
+    </extensions>
+
+    <!-- Register ExecutionListener at APPLICATION level (not project level) -->
+    <applicationListeners>
+        <listener class="com.gtxtreme.panic.listeners.ExecutionFailureListener" topic="com.intellij.execution.ExecutionListener"/>
+    </applicationListeners>
+
+    <actions>
+        <action id="Panic.TestPanicMode" class="com.gtxtreme.panic.actions.TestPanicAction" text="Test Panic Mode" description="Manually trigger panic mode"/>
+        <action id="Panic.TestRedemptionMode" class="com.gtxtreme.panic.actions.TestRedemptionAction" text="Test Redemption Mode" description="Manually trigger redemption mode"/>
+    </actions>
+</idea-plugin>
